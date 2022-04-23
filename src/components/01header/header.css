@@ -1,0 +1,9 @@
+.lorem{
+    background-color: black;
+    height: 4rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 2px;
+    position: sticky;
+}

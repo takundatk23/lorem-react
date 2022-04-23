@@ -1,8 +1,11 @@
 import React from 'react'
+import './lorem.css';
 
 const Lorem = () => {
   return (
-    <div>Lorem</div>
+    <div className='loremHolder'>
+    
+    </div>
   )
 }
 
