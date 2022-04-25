@@ -3,7 +3,9 @@ import './header.css';
 
 const Header = () => {
   return (
-    <h2 className='lorem'>LOREM SAVES LIVES!!!</h2>
+    <h1 className='wrapper'>
+      LOREM SAVES LIVES!!!
+    </h1>
   )
 }
 

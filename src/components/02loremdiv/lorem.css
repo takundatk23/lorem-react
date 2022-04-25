@@ -1,7 +1,75 @@
 .loremHolder{
     background-image: url('https://github.com/takundatk23/Flexbox-Project-L-O-R-E-M/blob/main/images/keyboard.jpg?raw=true');
     width: 100%;
-    height: 85vh;
+    height: 88vh;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+.loremHolder{
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+
+.loremInner{
+    width: 95%;
+    text-align: center;
+    margin-top: 8rem;
+    padding: 1rem;
+    font-family: var(--mont-font);
+    font-weight: 500;
+}
+
+.loremInner span{
+    position: absolute;
+    font-size: 16rem;
+    bottom: 5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 221, 0, 0.999);
+    z-index: 10;
+}
+
+@media screen and (max-width: 1200px) {
+    .loremInner span{
+        font-size: 14rem;
+        bottom: 9rem;
+    }
+
+    .loremInner{
+        width: 100%;
+        margin-top: 8rem;
+        font-size: 7rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .loremInner span{
+        font-size: 8rem;
+        bottom: 14rem;
+    }
+
+    .loremInner{
+        width: 100%;
+        margin-top: 8rem;
+        font-size: 5.5rem;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    .loremInner span{
+        font-size: 8rem;
+        bottom: 6rem;
+    }
+
+    .loremInner{
+        width: 100%;
+        margin-top: 8rem;
+        font-size: 5.5rem;
+    }
 }
