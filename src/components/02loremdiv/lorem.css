@@ -63,12 +63,12 @@
 
 @media screen and (max-width: 392px) {
     .loremInner span{
-        font-size: 8rem;
+        font-size: 7rem;
         bottom: 6rem;
     }
 
     .loremInner{
-        width: 100%;
+        width: 90%;
         margin-top: 8rem;
         font-size: 5.5rem;
     }
