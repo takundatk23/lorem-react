@@ -1,0 +1,33 @@
+.four{
+    margin: 3rem 0;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid black;
+}
+
+.grid > *{
+    padding: 8rem;
+}
+
+@media screen and (max-width: 768px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+
+    .brain{
+        order: 5;
+    }
+
+    .grid > *{
+        padding: 5rem;
+    }
+
+    .four{
+        font-size: 4rem;
+    }
+}

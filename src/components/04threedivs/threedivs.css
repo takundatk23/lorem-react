@@ -1,0 +1,26 @@
+.threedivs{
+    display: flex;
+}
+
+.threedivs > div{
+    padding: 0 2.4rem;
+}
+
+.threedivs div:nth-child(-n+2){
+    border-right: 1px solid black;
+}
+
+@media screen and (max-width: 1120px) {
+    .threedivs{
+        flex-direction: column;
+    }
+
+    .threedivs > div{
+        padding: 2.4rem 0;
+    }
+    
+    .threedivs div:nth-child(-n+2){
+        border-right: none;
+        border-bottom: 1px solid black;
+    }    
+}

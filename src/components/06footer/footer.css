@@ -1,0 +1,30 @@
+.foot{
+    background-color: #0a0a0a;
+    color: white;
+    font-size: 5rem;
+}
+
+.foot div{
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    background-color: #0a0a0a;
+    font-size: 2rem;
+    padding: 0 2rem 1rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 938px) {
+    .foot{
+        font-size: 3rem;
+    }
+    .foot div{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .foot{
+        font-size: 2rem;
+    }
+}

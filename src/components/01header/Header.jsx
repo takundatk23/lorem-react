@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.css';
+import './header.css'; //use rafce hot key to bring layout
 
 const Header = () => {
   return (

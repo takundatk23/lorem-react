@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap');
 
 :root{
-    --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;
+    --container-width-lg: 80%;
 
     --mont-font:  'Montserrat', sans-serif;
     --poppy-font: 'Poppins', sans-serif;
@@ -30,6 +28,7 @@ html{
 .container{
     width: var(--container-width-lg);
     margin: 0 auto;
+    padding-top: 5.5rem;
 }
 
 h1,h2,h3,h4,h5{
@@ -50,22 +49,24 @@ img{
     object-fit: cover;
 }
 
+p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
 /* --------------MEDIA QUERIES -------------------------- */
 @media screen and (max-width: 1024px) {
-    .container{
-        width: var(--container-width-md);
-    }
-
     section{
         margin-top: 6rem;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .container{
-        width: var(--container-width-sm);
-    }
-
     section{
         margin-top: 4rem;
     }
